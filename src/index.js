@@ -38,7 +38,7 @@ const workingArr = serializePuzzle(puzzle)
 
 console.log(workingArr)
 const getGrid = (wa) => {
-    const grid = [
+    const grid = []
     for(let i=0; i<9; i++) {
         const currentRow = []
         for(let j=0; j<9; j++) {
