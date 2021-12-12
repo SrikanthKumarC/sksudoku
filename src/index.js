@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Node from './components/Node'
-import './Index.css'
 import { makepuzzle, solvepuzzle} from "sudoku";
 
 var puzzl = makepuzzle()
